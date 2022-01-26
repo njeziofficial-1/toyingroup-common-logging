@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "ezaL647pZLzns/ltFC+Yt6pMzxddFCmMSR3+Oqt5zSQooTzB/0nvlY/s9Lktjal1kb/yJE8U1skRv6NbiUwngA==",
+  "dgSpecHash": "gfUwA+DNjuaV6lKLp2ZicVgeSWCKOgAS6XXNatOgZoirznP1+rvET8w3G8UVAkmPsUQvWOYeGllWFL28DkheLA==",
   "success": true,
   "projectFilePath": "C:\\Projects\\ToyinGroup.Common.Logging\\ToyinGroup.Common.Logging\\ToyinGroup.Common.Logging.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP\\.nuget\\packages\\awssdk.cloudwatch\\3.7.3.16\\awssdk.cloudwatch.3.7.3.16.nupkg.sha512",
-    "C:\\Users\\HP\\.nuget\\packages\\awssdk.cloudwatchlogs\\3.7.2.12\\awssdk.cloudwatchlogs.3.7.2.12.nupkg.sha512",
-    "C:\\Users\\HP\\.nuget\\packages\\awssdk.core\\3.7.6.1\\awssdk.core.3.7.6.1.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\awssdk.cloudwatchlogs\\3.7.0.13\\awssdk.cloudwatchlogs.3.7.0.13.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\awssdk.core\\3.7.6\\awssdk.core.3.7.6.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\awssdk.extensions.netcore.setup\\3.7.1\\awssdk.extensions.netcore.setup.3.7.1.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.dotnet.platformabstractions\\2.0.4\\microsoft.dotnet.platformabstractions.2.0.4.nupkg.sha512",
@@ -36,7 +36,7 @@
     "C:\\Users\\HP\\.nuget\\packages\\serilog.sinks.awscloudwatch\\4.0.171\\serilog.sinks.awscloudwatch.4.0.171.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\serilog.sinks.console\\3.1.1\\serilog.sinks.console.3.1.1.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\serilog.sinks.debug\\2.0.0\\serilog.sinks.debug.2.0.0.nupkg.sha512",
-    "C:\\Users\\HP\\.nuget\\packages\\serilog.sinks.file\\5.0.0\\serilog.sinks.file.5.0.0.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\serilog.sinks.file\\4.1.0\\serilog.sinks.file.4.1.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\serilog.sinks.periodicbatching\\2.3.0\\serilog.sinks.periodicbatching.2.3.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\system.appcontext\\4.1.0\\system.appcontext.4.1.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\system.collections\\4.0.11\\system.collections.4.0.11.nupkg.sha512",
@@ -77,12 +77,5 @@
     "C:\\Users\\HP\\.nuget\\packages\\system.xml.readerwriter\\4.0.11\\system.xml.readerwriter.4.0.11.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\system.xml.xdocument\\4.0.11\\system.xml.xdocument.4.0.11.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "No Authorization header detected"
-    }
-  ]
+  "logs": []
 }

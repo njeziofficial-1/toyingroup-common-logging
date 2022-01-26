@@ -1,0 +1,12 @@
+C:\Projects\ToyinGroup.Common.Logging\ToyinGroup.Common.Logging\obj\Debug\net6.0\ToyinGroup.Common.Logging.csproj.AssemblyReference.cache
+C:\Projects\ToyinGroup.Common.Logging\ToyinGroup.Common.Logging\obj\Debug\net6.0\ToyinGroup.Common.Logging.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\ToyinGroup.Common.Logging\ToyinGroup.Common.Logging\obj\Debug\net6.0\ToyinGroup.Common.Logging.AssemblyInfoInputs.cache
+C:\Projects\ToyinGroup.Common.Logging\ToyinGroup.Common.Logging\obj\Debug\net6.0\ToyinGroup.Common.Logging.AssemblyInfo.cs
+C:\Projects\ToyinGroup.Common.Logging\ToyinGroup.Common.Logging\obj\Debug\net6.0\ToyinGroup.Common.Logging.csproj.CoreCompileInputs.cache
+C:\Projects\ToyinGroup.Common.Logging\ToyinGroup.Common.Logging\bin\Debug\net6.0\ToyinGroup.Common.Logging.deps.json
+C:\Projects\ToyinGroup.Common.Logging\ToyinGroup.Common.Logging\bin\Debug\net6.0\ToyinGroup.Common.Logging.dll
+C:\Projects\ToyinGroup.Common.Logging\ToyinGroup.Common.Logging\bin\Debug\net6.0\ref\ToyinGroup.Common.Logging.dll
+C:\Projects\ToyinGroup.Common.Logging\ToyinGroup.Common.Logging\bin\Debug\net6.0\ToyinGroup.Common.Logging.pdb
+C:\Projects\ToyinGroup.Common.Logging\ToyinGroup.Common.Logging\obj\Debug\net6.0\ToyinGroup.Common.Logging.dll
+C:\Projects\ToyinGroup.Common.Logging\ToyinGroup.Common.Logging\obj\Debug\net6.0\ref\ToyinGroup.Common.Logging.dll
+C:\Projects\ToyinGroup.Common.Logging\ToyinGroup.Common.Logging\obj\Debug\net6.0\ToyinGroup.Common.Logging.pdb

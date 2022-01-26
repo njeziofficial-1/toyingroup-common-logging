@@ -14,10 +14,10 @@
           "lib/netcoreapp3.1/AWSSDK.CloudWatch.dll": {}
         }
       },
-      "AWSSDK.CloudWatchLogs/3.7.2.12": {
+      "AWSSDK.CloudWatchLogs/3.7.0.13": {
         "type": "package",
         "dependencies": {
-          "AWSSDK.Core": "[3.7.6.1, 4.0.0)"
+          "AWSSDK.Core": "[3.7.0.14, 3.8.0)"
         },
         "compile": {
           "lib/netcoreapp3.1/AWSSDK.CloudWatchLogs.dll": {}
@@ -26,7 +26,7 @@
           "lib/netcoreapp3.1/AWSSDK.CloudWatchLogs.dll": {}
         }
       },
-      "AWSSDK.Core/3.7.6.1": {
+      "AWSSDK.Core/3.7.6": {
         "type": "package",
         "compile": {
           "lib/netcoreapp3.1/AWSSDK.Core.dll": {}
@@ -449,16 +449,19 @@
           "lib/netstandard2.1/Serilog.Sinks.Debug.dll": {}
         }
       },
-      "Serilog.Sinks.File/5.0.0": {
+      "Serilog.Sinks.File/4.1.0": {
         "type": "package",
         "dependencies": {
-          "Serilog": "2.10.0"
+          "Serilog": "2.5.0",
+          "System.IO.FileSystem": "4.0.1",
+          "System.Text.Encoding.Extensions": "4.0.11",
+          "System.Threading.Timer": "4.0.1"
         },
         "compile": {
-          "lib/net5.0/Serilog.Sinks.File.dll": {}
+          "lib/netstandard2.0/Serilog.Sinks.File.dll": {}
         },
         "runtime": {
-          "lib/net5.0/Serilog.Sinks.File.dll": {}
+          "lib/netstandard2.0/Serilog.Sinks.File.dll": {}
         }
       },
       "Serilog.Sinks.PeriodicBatching/2.3.0": {
@@ -1065,16 +1068,16 @@
         "tools/uninstall.ps1"
       ]
     },
-    "AWSSDK.CloudWatchLogs/3.7.2.12": {
-      "sha512": "C9XYcgFKtHjXM1zW34HlPbGfD7NbJ8wWM/OUgO0xNbq1lTn7ElLv5QCRK70zZukrHLtUFhC/p1Ss6Bk7kaZuoA==",
+    "AWSSDK.CloudWatchLogs/3.7.0.13": {
+      "sha512": "oA6Z0O6vyqwTxYwPQKBHWpSp6jeU59EAHn0Vcx3GUlqbe0WLNH44g/0hHEKBG0IWyjiE7sHfVqN2U19+tJ5qfA==",
       "type": "package",
-      "path": "awssdk.cloudwatchlogs/3.7.2.12",
+      "path": "awssdk.cloudwatchlogs/3.7.0.13",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "analyzers/dotnet/cs/AWSSDK.CloudWatchLogs.CodeAnalysis.dll",
-        "awssdk.cloudwatchlogs.3.7.2.12.nupkg.sha512",
+        "awssdk.cloudwatchlogs.3.7.0.13.nupkg.sha512",
         "awssdk.cloudwatchlogs.nuspec",
         "lib/net35/AWSSDK.CloudWatchLogs.dll",
         "lib/net35/AWSSDK.CloudWatchLogs.pdb",
@@ -1092,15 +1095,15 @@
         "tools/uninstall.ps1"
       ]
     },
-    "AWSSDK.Core/3.7.6.1": {
-      "sha512": "J5Mk74ntMUhKvJOHZs7N0XWDUHaogr57nHts8hkswlioy+bKdojck3iMhsvX4IrxVJb6ZXTmQDkjN4RvdouJxg==",
+    "AWSSDK.Core/3.7.6": {
+      "sha512": "uQUS+Vi3qIb8Ea/SXkuq8g2aQXO3VGGASOpXkoI8MkopdhhKhF13gysYftciG4Ye7xw4Lsz5Aimilzlho0fSAA==",
       "type": "package",
-      "path": "awssdk.core/3.7.6.1",
+      "path": "awssdk.core/3.7.6",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "awssdk.core.3.7.6.1.nupkg.sha512",
+        "awssdk.core.3.7.6.nupkg.sha512",
         "awssdk.core.nuspec",
         "lib/net35/AWSSDK.Core.dll",
         "lib/net35/AWSSDK.Core.pdb",
@@ -1667,30 +1670,23 @@
         "serilog.sinks.debug.nuspec"
       ]
     },
-    "Serilog.Sinks.File/5.0.0": {
-      "sha512": "uwV5hdhWPwUH1szhO8PJpFiahqXmzPzJT/sOijH/kFgUx+cyoDTMM8MHD0adw9+Iem6itoibbUXHYslzXsLEAg==",
+    "Serilog.Sinks.File/4.1.0": {
+      "sha512": "U0b34w+ZikbqWEZ3ui7BdzxY/19zwrdhLtI3o6tfmLdD3oXxg7n2TZJjwCCTlKPgRuYic9CBWfrZevbb70mTaw==",
       "type": "package",
-      "path": "serilog.sinks.file/5.0.0",
+      "path": "serilog.sinks.file/4.1.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "images/icon.png",
         "lib/net45/Serilog.Sinks.File.dll",
         "lib/net45/Serilog.Sinks.File.pdb",
         "lib/net45/Serilog.Sinks.File.xml",
-        "lib/net5.0/Serilog.Sinks.File.dll",
-        "lib/net5.0/Serilog.Sinks.File.pdb",
-        "lib/net5.0/Serilog.Sinks.File.xml",
         "lib/netstandard1.3/Serilog.Sinks.File.dll",
         "lib/netstandard1.3/Serilog.Sinks.File.pdb",
         "lib/netstandard1.3/Serilog.Sinks.File.xml",
         "lib/netstandard2.0/Serilog.Sinks.File.dll",
         "lib/netstandard2.0/Serilog.Sinks.File.pdb",
         "lib/netstandard2.0/Serilog.Sinks.File.xml",
-        "lib/netstandard2.1/Serilog.Sinks.File.dll",
-        "lib/netstandard2.1/Serilog.Sinks.File.pdb",
-        "lib/netstandard2.1/Serilog.Sinks.File.xml",
-        "serilog.sinks.file.5.0.0.nupkg.sha512",
+        "serilog.sinks.file.4.1.0.nupkg.sha512",
         "serilog.sinks.file.nuspec"
       ]
     },
@@ -4070,12 +4066,9 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "AWSSDK.CloudWatch >= 3.7.3.16",
-      "AWSSDK.CloudWatchLogs >= 3.7.2.12",
-      "AWSSDK.Core >= 3.7.6.1",
       "AWSSDK.Extensions.NETCore.Setup >= 3.7.1",
       "Serilog.AspNetCore >= 4.1.0",
-      "Serilog.Sinks.AwsCloudWatch >= 4.0.171",
-      "Serilog.Sinks.File >= 5.0.0"
+      "Serilog.Sinks.AwsCloudWatch >= 4.0.171"
     ]
   },
   "packageFolders": {
@@ -4127,14 +4120,6 @@
             "target": "Package",
             "version": "[3.7.3.16, )"
           },
-          "AWSSDK.CloudWatchLogs": {
-            "target": "Package",
-            "version": "[3.7.2.12, )"
-          },
-          "AWSSDK.Core": {
-            "target": "Package",
-            "version": "[3.7.6.1, )"
-          },
           "AWSSDK.Extensions.NETCore.Setup": {
             "target": "Package",
             "version": "[3.7.1, )"
@@ -4146,10 +4131,6 @@
           "Serilog.Sinks.AwsCloudWatch": {
             "target": "Package",
             "version": "[4.0.171, )"
-          },
-          "Serilog.Sinks.File": {
-            "target": "Package",
-            "version": "[5.0.0, )"
           }
         },
         "imports": [
@@ -4170,13 +4151,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "No Authorization header detected"
-    }
-  ]
+  }
 }

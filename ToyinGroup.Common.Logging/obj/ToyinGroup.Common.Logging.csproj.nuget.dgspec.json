@@ -49,14 +49,6 @@
               "target": "Package",
               "version": "[3.7.3.16, )"
             },
-            "AWSSDK.CloudWatchLogs": {
-              "target": "Package",
-              "version": "[3.7.2.12, )"
-            },
-            "AWSSDK.Core": {
-              "target": "Package",
-              "version": "[3.7.6.1, )"
-            },
             "AWSSDK.Extensions.NETCore.Setup": {
               "target": "Package",
               "version": "[3.7.1, )"
@@ -68,10 +60,6 @@
             "Serilog.Sinks.AwsCloudWatch": {
               "target": "Package",
               "version": "[4.0.171, )"
-            },
-            "Serilog.Sinks.File": {
-              "target": "Package",
-              "version": "[5.0.0, )"
             }
           },
           "imports": [
