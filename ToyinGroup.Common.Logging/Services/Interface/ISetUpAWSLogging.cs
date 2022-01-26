@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace ToyinGroup.Common.Logging.Services.Interface
 {
-    internal interface ISetUpAWSLogging
+    public interface ISetUpAWSLogging
     {
+        Task SetUpAWSLogging(WebHostBuilderContext hostingContext, LoggerConfiguration loggerConfiguration);
     }
 }
