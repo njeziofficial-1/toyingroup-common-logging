@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ToyinGroup.Common.Logging.Services.Concrete
+﻿namespace ToyinGroup.Common.Logging.Services.Concrete;
+public class LoggingSettings
 {
-    internal class LoggingSettings
-    {
-    }
+    public string CloudWatchLogGroup { get; set; }
 }
+
