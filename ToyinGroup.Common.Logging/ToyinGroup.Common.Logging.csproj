@@ -13,8 +13,4 @@
     <PackageReference Include="Serilog.Sinks.AwsCloudWatch" Version="4.0.171" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Services\" />
-  </ItemGroup>
-
 </Project>

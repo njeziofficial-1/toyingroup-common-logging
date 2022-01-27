@@ -1,6 +1,6 @@
 ﻿
 namespace ToyinGroup.Common.Logging.Services.Concrete;
-public class Logging : ISetUpAWSLogging
+public class Logging : ILogging
 {
     public async Task SetUpAWSLogging(WebHostBuilderContext hostingContext, LoggerConfiguration loggerConfiguration)
     {
